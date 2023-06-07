@@ -12,6 +12,8 @@ The dataset is available in TFRecord format, a popular container format used in 
 - `val/*.tfrec`: Pre-split training samples with labels for performance evaluation.
 - `test/*.tfrec`: Test samples without labels for prediction.
 
+the API to download the dataset is 'kaggle competitions download -c tpu-getting-started'
+
 ## Model
 In this project, we utilize the DenseNet model for flower classification. DenseNet is a convolutional neural network architecture known for its excellent performance in image classification tasks. By training the model on the labeled training set and optimizing its parameters, it can learn to identify distinctive features and patterns specific to each flower class.
 
